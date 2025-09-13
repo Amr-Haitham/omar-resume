@@ -67,8 +67,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Trust Our Expertise Section */}
+      {/* About Me Section */}
       <section className="py-16 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              من أنا ولماذا يجب أن تثق بنصائحي
+            </h2>
+            <div className="max-w-4xl mx-auto text-right">
+              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+                مرحباً — أنا عمر. أكملت تدريبين في هندسة البرمجيات في Google (حصلت على الأول بدون توصيات)، وحصلت على عرض عودة لصيف 2025. وصلت إلى هنا من خلال الكثير من التجربة والخطأ، والممارسة المتعمدة على مواد التقديم، و— توفيق من ربنا. كما استضفت ورش عمل متعددة حول السيرة الذاتية (واحدة منها على YouTube مع أكثر من 1.5k مشاهدة وتقييمات إيجابية باستمرار) وقمت بالعديد من مراجعات السيرة الذاتية الفردية — المشاركون يبلغون عن تحسينات واضحة وقابلة للقياس بعد العمل معي.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                ملاحظة سريعة: كل ما أنصح به يأتي من تجربتي الشخصية والبحث، وليس من العمل كموظف توظيف أو متخصص في الموارد البشرية. أهدف إلى تقديم نصائح عملية وصديقة للموظفين وقابلة للتنفيذ بناءً على ما ساعدني فعلاً والأشخاص الذين دربتهم.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Trust Our Expertise Section */}
+      <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -188,76 +207,91 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Services Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              اختر خطة مراجعة سيرتك الذاتية
+              خدماتنا
             </h2>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-8">
-            {/* Personal Review Plan */}
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Service 1: Deep Review + Personalized Video */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">المراجعة الشخصية</h3>
-              <div className="text-4xl font-bold text-gray-900 mb-6">$500</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">1 — مراجعة عميقة + فيديو شخصي</h3>
+              <p className="text-gray-600 mb-6">مثالي إذا كنت تريد نقداً مدروساً ومخصصاً دون جدولة مكالمة.</p>
               
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">جلسة مباشرة 30-45 دقيقة</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">تعليقات مباشرة ومفصلة</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">تحسينات مخصصة لسيرتك</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">نصائح خاصة بالصناعة</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">دعم متابعة لمدة أسبوع</span>
-                </li>
-              </ul>
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• ترفع سيرتك الذاتية؛ أقضي بضع ساعات في مراجعتها بالتفصيل</li>
+                  <li>• فيديو مسجل مخصص بالكامل (≈15–30 دقيقة) يمر على سيرتك الذاتية سطراً بسطر</li>
+                  <li>• اقتراحات إعادة كتابة ملموسة وأمثلة سأستخدمها بدلاً من النصائح الغامضة</li>
+                  <li>• خطوات واضحة لتحسين اهتمام المقابلات وقراءة ATS</li>
+                </ul>
+              </div>
+              
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-2">مدة التسليم</h4>
+                <p className="text-sm text-gray-700">يتم التسليم خلال 3–4 أيام عمل من الرفع</p>
+              </div>
+              
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
+                <p className="text-sm text-gray-700">الأشخاص المشغولين الذين يريدون مراجعة عميقة ومخصصة مع أمثلة يمكنهم تنفيذها في وقتهم الخاص</p>
+              </div>
               
               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300">
                 ابدأ الآن
               </button>
             </div>
             
-            {/* Recorded Review Plan */}
+            {/* Service 2: 45-minute 1:1 Resume Deep-Dive */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">المراجعة المسجلة</h3>
-              <div className="text-4xl font-bold text-gray-900 mb-6">$300</div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">2 — جلسة مباشرة 45 دقيقة</h3>
+              <p className="text-gray-600 mb-6">الأفضل للأشخاص الذين يريدون تحسينات تفاعلية عالية التأثير وتعديلات مباشرة.</p>
               
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">مراجعة مسجلة 20-30 دقيقة</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">تعليقات مفصلة ومكتوبة</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">مراجعتان إضافيتان</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">نصائح تحسين ATS</span>
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="text-green-500 text-lg">✓</span>
-                  <span className="text-gray-700">التسليم خلال 48 ساعة</span>
-                </li>
-              </ul>
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• مكالمة فيديو 45 دقيقة (مشاركة الشاشة) نمر على سيرتك الذاتية معاً</li>
+                  <li>• أسأل أسئلة مستهدفة لفهم دورك وتأثيرك وأهدافك</li>
+                  <li>• تعديلات مباشرة وإعادة صياغة أثناء المكالمة</li>
+                  <li>• ملخص ما بعد المكالمة مع أهم الإجراءات و3–5 أمثلة إعادة كتابة</li>
+                </ul>
+              </div>
+              
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
+                <p className="text-sm text-gray-700">الأشخاص الذين يريدون نتائج أسرع وأعلى جودة ويفضلون التوجيه التفاعلي على التعليقات غير المتزامنة</p>
+              </div>
+              
+              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300">
+                ابدأ الآن
+              </button>
+            </div>
+            
+            {/* Service 3: 30-minute Mentorship / Career Q&A */}
+            <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">3 — جلسة إرشاد 30 دقيقة</h3>
+              <p className="text-gray-600 mb-6">للإرشاد المهني الأوسع، تحضير المقابلات، والإرشاد.</p>
+              
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>• مكالمة مركزة 30 دقيقة يمكنك فيها سؤال أي شيء</li>
+                  <li>• خيارات المسار المهني، كيفية التحضير للمقابلات</li>
+                  <li>• استراتيجيات التواصل، نصائح التدريب/عرض العودة</li>
+                  <li>• نصائح عملية قائمة على الخبرة وخطوات واقعية</li>
+                  <li>• ملاحظة متابعة قصيرة تلخص التوصيات الرئيسية</li>
+                </ul>
+              </div>
+              
+              <div className="mb-6">
+                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
+                <p className="text-sm text-gray-700">الطلاب والمهندسين في بداية حياتهم المهنية الذين يريدون إرشاداً، استراتيجية مقابلات، أو مساعدة في اتخاذ الخطوات التالية</p>
+              </div>
               
               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300">
                 ابدأ الآن
