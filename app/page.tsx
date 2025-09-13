@@ -103,9 +103,9 @@ export default function Home() {
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;خدمة ممتازة! ساعدتني في الحصول على وظيفة أحلامي. التعليقات كانت دقيقة ومفيدة جداً.&rdquo;
+                &ldquo;بجد كنت محظوظ إني قابلت عمر وحضرت واحدة من الـ resume workshops بتاعته. مشيت على كل اللي قاله بالحرف، وبعدها وريته الـ resume الجديد اللي ظبطته. إداني شوية ملاحظات بسيطة، وبعد ما عدلتها استخدمت نفس الـ resume وقدّمت بيه على تدريب في Google. فجأة لقيت نفسي واخد دعوة للمقابلة أسرع بكتير من اللي كنت متوقعه. وبمساعدته المستمرة ونصايحه في إزاي أذاكر للمقابلة، الحمد لله عدّيت الـ technical rounds واتقبلت.&rdquo;
               </p>
-              <div className="font-bold text-lg text-gray-900">سارة محمد</div>
+              <div className="font-bold text-lg text-gray-900">محمد رسلان</div>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
@@ -113,9 +113,9 @@ export default function Home() {
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;استطعت تحسين سيرتي الذاتية بشكل كبير. الخدمة احترافية جداً ومفيدة.&rdquo;
+                &ldquo;بفضل الله ثم بمساعدة عمر رتبنا ال resume بشكل لائق وخلي المحتوى directed اكتر علي الposition اللي انا عاوزه و اضفنا محتوي مكنتش متوقع انه هيفرق و شيلنا محتوى كنت اظنه مهم. الsession فرقت جدا معايا. حد محترم جدا ومتعاون ربنا يجازيك خير و يرزقك&rdquo;
               </p>
-              <div className="font-bold text-lg text-gray-900">أحمد حسن</div>
+              <div className="font-bold text-lg text-gray-900">عمرو هيثم</div>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
@@ -357,8 +357,8 @@ export default function Home() {
               <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-white text-xl font-bold">2</span>
               </div>
-              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الدفع</h3>
-              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay أو المحفظة الإلكترونية</p>
+              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الدفع والسيرة الذاتية</h3>
+              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay أو المحفظة الإلكترونية + أرسل الresume إذا كانت خدمة مراجعة</p>
             </div>
             
             <div className="text-center">
@@ -445,7 +445,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-lg">📱</span>
-                  <span className="text-gray-300 text-base">01064542684</span>
+                  <span className="text-gray-300 text-base">01013455957</span>
                 </div>
               </div>
             </div>
