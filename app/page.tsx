@@ -86,44 +86,59 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why Trust Our Expertise Section */}
-      <section className="py-16 px-4 bg-gray-50">
+      {/* Testimonials Section */}
+      <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              لماذا تثق بخبرتنا؟
+              ماذا يقول عملاؤنا
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              خبيرنا تم تدريبه في جوجل وساعد في تحويل السير الذاتية إلى وثائق مثيرة للإعجاب. ساعدنا مئات الطلاب في الحصول على وظائف أحلامهم.
-            </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <div className="text-center bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-green-600 text-xl">📈</span>
+          <div className="grid md:grid-cols-3 gap-6 mb-10">
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <div className="flex items-center gap-1 mb-3">
+                <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">3x زيادة في المقابلات</h3>
-              <p className="text-gray-600 text-sm">متوسط زيادة في عدد المقابلات</p>
+              <p className="text-gray-700 mb-4 text-base leading-relaxed">
+                &ldquo;خدمة ممتازة! ساعدتني في الحصول على وظيفة أحلامي. التعليقات كانت دقيقة ومفيدة جداً.&rdquo;
+              </p>
+              <div className="font-bold text-lg text-gray-900">سارة محمد</div>
             </div>
             
-            <div className="text-center bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-xl">⭐</span>
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <div className="flex items-center gap-1 mb-3">
+                <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">95% معدل رضا العملاء</h3>
-              <p className="text-gray-600 text-sm">عملاء راضون عن الخدمة</p>
+              <p className="text-gray-700 mb-4 text-base leading-relaxed">
+                &ldquo;استطعت تحسين سيرتي الذاتية بشكل كبير. الخدمة احترافية جداً ومفيدة.&rdquo;
+              </p>
+              <div className="font-bold text-lg text-gray-900">أحمد حسن</div>
             </div>
             
-            <div className="text-center bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-xl">📄</span>
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <div className="flex items-center gap-1 mb-3">
+                <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">+500 سيرة ذاتية تم تحسينها</h3>
-              <p className="text-gray-600 text-sm">سيرة ذاتية تمت مراجعتها بنجاح</p>
+              <p className="text-gray-700 mb-4 text-base leading-relaxed">
+                &ldquo;ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!&rdquo;
+              </p>
+              <div className="font-bold text-lg text-gray-900">فاطمة علي</div>
             </div>
           </div>
+          
+          <div className="text-center">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300">
+              أريد أن أكون التالي في قائمة العملاء
+            </button>
+          </div>
+        </div>
+      </section>
 
+
+      {/* Why Trust Our Expertise Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
           {/* Video Preview Section */}
           <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-6 shadow-lg">
             <div className="text-center mb-6">
@@ -407,57 +422,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ماذا يقول عملاؤنا
-            </h2>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
-            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                <span className="text-yellow-400 text-lg">★★★★★</span>
-              </div>
-              <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;خدمة ممتازة! ساعدتني في الحصول على وظيفة أحلامي. التعليقات كانت دقيقة ومفيدة جداً.&rdquo;
-              </p>
-              <div className="font-bold text-lg text-gray-900">سارة محمد</div>
-            </div>
-            
-            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                <span className="text-yellow-400 text-lg">★★★★★</span>
-              </div>
-              <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;استطعت تحسين سيرتي الذاتية بشكل كبير. الخدمة احترافية جداً ومفيدة.&rdquo;
-              </p>
-              <div className="font-bold text-lg text-gray-900">أحمد حسن</div>
-            </div>
-            
-            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                <span className="text-yellow-400 text-lg">★★★★★</span>
-              </div>
-              <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!&rdquo;
-              </p>
-              <div className="font-bold text-lg text-gray-900">فاطمة علي</div>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300">
-              أريد أن أكون التالي في قائمة العملاء
-            </button>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
+
       <footer className="bg-gray-900 text-white py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
