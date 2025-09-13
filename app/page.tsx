@@ -1,4 +1,6 @@
 import Image from "next/image";
+import CopyButton from "./components/CopyButton";
+import SocialIcons from "./components/SocialIcons";
 
 export default function Home() {
   return (
@@ -6,7 +8,7 @@ export default function Home() {
       {/* Floating WhatsApp Button */}
       <div className="fixed bottom-6 left-6 z-50">
         <a
-          href="https://wa.me/201234567890"
+          href="https://wa.me/201013455957"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl hover:shadow-green-500/25 transition-all duration-300 transform hover:scale-110 flex items-center gap-2"
@@ -115,7 +117,7 @@ export default function Home() {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  src="https://www.youtube.com/embed/XqQkI2gJV-0"
                   title="Live CV Review Session - YouTube Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -288,7 +290,7 @@ export default function Home() {
                 <span className="text-white text-xl font-bold">2</span>
               </div>
               <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الدفع</h3>
-              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay</p>
+              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay أو المحفظة الإلكترونية</p>
             </div>
             
             <div className="text-center">
@@ -304,17 +306,22 @@ export default function Home() {
                 <span className="text-white text-xl font-bold">4</span>
               </div>
               <h3 className="font-bold text-base mb-2 text-gray-900">احصل على الخدمة</h3>
-              <p className="text-gray-600 text-sm">ابدأ جلسة المراجعة</p>
+              <p className="text-gray-600 text-sm">ابدأ جلسة المراجعة أو انتظر الفيديو المسجل</p>
             </div>
           </div>
 
-          {/* Instapay Details */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg max-w-2xl mx-auto">
-            <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">تفاصيل الدفع عبر Instapay</h3>
+          {/* Payment Details */}
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+            {/* Vodafone Cash */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Vodafone Cash</h3>
             <div className="space-y-3">
               <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-semibold text-gray-700">رقم المستلم:</span>
-                <span className="text-blue-600 font-bold">+201234567890</span>
+                  <span className="font-semibold text-gray-700">رقم المحفظة:</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-600 font-bold">01064542684</span>
+                    <CopyButton text="01064542684" title="نسخ الرقم" />
+                  </div>
               </div>
               <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                 <span className="font-semibold text-gray-700">اسم المستلم:</span>
@@ -324,6 +331,28 @@ export default function Home() {
             <button className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-xl text-base shadow-lg hover:shadow-green-600/25 transition-all duration-300 mt-4">
               تأكيد الدفع
             </button>
+            </div>
+
+            {/* Instapay */}
+            <div className="bg-white rounded-2xl p-6 shadow-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Instapay</h3>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                  <span className="font-semibold text-gray-700">رقم المستلم:</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-blue-600 font-bold">+201234567890</span>
+                    <CopyButton text="+201234567890" title="نسخ الرقم" />
+                  </div>
+                </div>
+                <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+                  <span className="font-semibold text-gray-700">اسم المستلم:</span>
+                  <span className="text-blue-600 font-bold">عمر أحمد</span>
+                </div>
+              </div>
+              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-base shadow-lg hover:shadow-blue-600/25 transition-all duration-300 mt-4">
+                تأكيد الدفع
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -393,7 +422,7 @@ export default function Home() {
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">📧</span>
-                  <span className="text-gray-300 text-base">omar.ahmed@example.com</span>
+                  <span className="text-gray-300 text-base">omarahmed7703@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-lg">📱</span>
@@ -404,17 +433,7 @@ export default function Home() {
             
             <div className="text-center">
               <h3 className="text-xl font-bold mb-4">تابعنا</h3>
-              <div className="flex justify-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
-                  <span className="text-sm font-bold">in</span>
-                </div>
-                <div className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
-                  <span className="text-sm font-bold">ig</span>
-                </div>
-                <div className="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
-                  <span className="text-sm font-bold">tw</span>
-                </div>
-              </div>
+              <SocialIcons />
             </div>
           </div>
           
