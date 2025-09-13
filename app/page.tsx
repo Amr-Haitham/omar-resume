@@ -48,14 +48,14 @@ export default function Home() {
             </div>
             
             {/* Omar's Image */}
-            <div className="flex justify-center lg:justify-start order-1 lg:order-2">
+            <div className="flex justify-center lg:justify-end order-1 lg:order-2 lg:-mr-8">
               <div className="relative">
-                <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-8 border-white">
+                <div className="w-96 h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl border-8 border-white">
                   <Image
                     src="/omar.jpeg"
                     alt="عمر أحمد - خبير مراجعة السيرة الذاتية"
-                    width={320}
-                    height={320}
+                    width={448}
+                    height={448}
                     className="w-full h-full object-cover"
                     priority
                   />
@@ -93,11 +93,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ماذا يقول عملائي
+              ماذا يقول عملائيg
             </h2>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
+          <div className="grid md:grid-cols-2 gap-8 mb-10 max-w-4xl mx-auto">
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
               <div className="flex items-center gap-1 mb-3">
                 <span className="text-yellow-400 text-lg">★★★★★</span>
@@ -118,7 +118,7 @@ export default function Home() {
               <div className="font-bold text-lg text-gray-900">عمرو هيثم</div>
             </div>
             
-            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+            {/* <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
               <div className="flex items-center gap-1 mb-3">
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
                 &ldquo;ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!&rdquo;
               </p>
               <div className="font-bold text-lg text-gray-900">فاطمة علي</div>
-            </div>
+            </div> */}
           </div>
 
            <div className="text-center">

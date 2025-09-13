@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "مراجعة السيرة الذاتية - خبير متدرب في جوجل",
   description: "احصل على سيرة ذاتية مميزة مع تعليقات خبيرة من متدرب في جوجل. تحسينات حقيقية تجعلك ملاحظاً من قبل أفضل الموظفين.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
