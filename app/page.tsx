@@ -50,7 +50,7 @@ export default function Home() {
             {/* Omar's Image */}
             <div className="flex justify-center lg:justify-end order-1 lg:order-2 lg:-mr-8">
               <div className="relative">
-                <div className="w-96 h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl border-8 border-white">
+                <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl border-4 sm:border-8 border-white">
                   <Image
                     src="/omar.jpeg"
                     alt="عمر أحمد - خبير مراجعة السيرة الذاتية"
@@ -60,8 +60,8 @@ export default function Home() {
                     priority
                   />
                 </div>
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center shadow-xl">
-                  <span className="text-white text-2xl">✓</span>
+                <div className="absolute -bottom-2 -right-2 sm:-bottom-4 sm:-right-4 w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center shadow-xl">
+                  <span className="text-white text-xl sm:text-2xl">✓</span>
                 </div>
               </div>
             </div>
