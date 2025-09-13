@@ -343,7 +343,7 @@ export default function Home() {
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                "خدمة ممتازة! ساعدتني في الحصول على وظيفة أحلامي. التعليقات كانت دقيقة ومفيدة جداً."
+                &ldquo;خدمة ممتازة! ساعدتني في الحصول على وظيفة أحلامي. التعليقات كانت دقيقة ومفيدة جداً.&rdquo;
               </p>
               <div className="font-bold text-lg text-gray-900">سارة محمد</div>
             </div>
@@ -353,7 +353,7 @@ export default function Home() {
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                "استطعت تحسين سيرتي الذاتية بشكل كبير. الخدمة احترافية جداً ومفيدة."
+                &ldquo;استطعت تحسين سيرتي الذاتية بشكل كبير. الخدمة احترافية جداً ومفيدة.&rdquo;
               </p>
               <div className="font-bold text-lg text-gray-900">أحمد حسن</div>
             </div>
@@ -363,7 +363,7 @@ export default function Home() {
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                "ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!"
+                &ldquo;ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!&rdquo;
               </p>
               <div className="font-bold text-lg text-gray-900">فاطمة علي</div>
             </div>
