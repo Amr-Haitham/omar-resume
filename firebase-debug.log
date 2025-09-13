@@ -1,0 +1,160 @@
+[debug] [2025-09-13T09:59:36.538Z] ----------------------------------------------------------------------
+[debug] [2025-09-13T09:59:36.541Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2025-09-13T09:59:36.541Z] CLI Version:   13.27.0
+[debug] [2025-09-13T09:59:36.541Z] Platform:      darwin
+[debug] [2025-09-13T09:59:36.541Z] Node Version:  v22.11.0
+[debug] [2025-09-13T09:59:36.542Z] Time:          Sat Sep 13 2025 12:59:36 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-09-13T09:59:36.542Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-13T09:59:36.589Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-13T09:59:36.590Z] > authorizing via signed-in user (amrofficialacc@gmail.com)
+[debug] [2025-09-13T09:59:36.590Z] [iam] checking project wanas-eng for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-09-13T09:59:36.591Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:36.591Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:36.591Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions [none]
+[debug] [2025-09-13T09:59:36.591Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions x-goog-quota-user=projects/wanas-eng
+[debug] [2025-09-13T09:59:36.591Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-09-13T09:59:37.418Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions 200
+[debug] [2025-09-13T09:59:37.419Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-09-13T09:59:37.419Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:37.419Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:37.419Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng [none]
+[debug] [2025-09-13T09:59:37.743Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng 200
+[debug] [2025-09-13T09:59:37.743Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng {"projectId":"wanas-eng","projectNumber":"79838150940","displayName":"omar ahmed resume","name":"projects/wanas-eng","resources":{"hostingSite":"wanas-eng","realtimeDatabaseInstance":"wanas-eng-default-rtdb"},"state":"ACTIVE","etag":"1_058c4e37-e152-4fc4-92c1-d4e7ae190906"}
+[debug] [2025-09-13T09:59:38.774Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:38.774Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:38.775Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites pageToken=&pageSize=10
+[debug] [2025-09-13T09:59:39.920Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 200
+[debug] [2025-09-13T09:59:39.920Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites {"sites":[{"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-09-13T09:59:39.922Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:39.922Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:39.922Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 
+[debug] [2025-09-13T09:59:40.267Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 200
+[debug] [2025-09-13T09:59:40.267Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites {"sites":[{"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-09-13T09:59:40.268Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:40.268Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:40.268Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config [none]
+[debug] [2025-09-13T09:59:40.777Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config 200
+[debug] [2025-09-13T09:59:40.777Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config {"projectId":"wanas-eng","appId":"1:79838150940:web:67b052518ae396fefd3ad9","databaseURL":"https://wanas-eng-default-rtdb.firebaseio.com","storageBucket":"wanas-eng.firebasestorage.app","apiKey":"AIzaSyDl_jv9I3MUhIfo2CCVE6kzjswTK_twyYg","authDomain":"wanas-eng.firebaseapp.com","messagingSenderId":"79838150940","measurementId":"G-4M22JEX9YG"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-09-13T09:59:42.948Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:42.949Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T09:59:42.949Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng [none]
+[debug] [2025-09-13T09:59:43.227Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng 200
+[debug] [2025-09-13T09:59:43.227Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng {"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.5.3
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully in 4.5s
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+Failed to compile.
+
+./app/page.tsx
+346:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+346:100  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+356:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+356:84  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+366:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+366:82  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+
+[debug] [2025-09-13T09:59:52.781Z] Error: ENOENT: no such file or directory, open '/Users/amrshams/dev-projects/omar_resume/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-09-13T10:00:12.330Z] ----------------------------------------------------------------------
+[debug] [2025-09-13T10:00:12.332Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2025-09-13T10:00:12.333Z] CLI Version:   13.27.0
+[debug] [2025-09-13T10:00:12.333Z] Platform:      darwin
+[debug] [2025-09-13T10:00:12.333Z] Node Version:  v22.11.0
+[debug] [2025-09-13T10:00:12.333Z] Time:          Sat Sep 13 2025 13:00:12 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-09-13T10:00:12.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-13T10:00:12.406Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-13T10:00:12.406Z] > authorizing via signed-in user (amrofficialacc@gmail.com)
+[debug] [2025-09-13T10:00:12.407Z] [iam] checking project wanas-eng for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-09-13T10:00:12.407Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:12.407Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:12.408Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions [none]
+[debug] [2025-09-13T10:00:12.408Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions x-goog-quota-user=projects/wanas-eng
+[debug] [2025-09-13T10:00:12.408Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-09-13T10:00:13.262Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions 200
+[debug] [2025-09-13T10:00:13.262Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/wanas-eng:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-09-13T10:00:13.263Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:13.263Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:13.264Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng [none]
+[debug] [2025-09-13T10:00:13.701Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng 200
+[debug] [2025-09-13T10:00:13.701Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng {"projectId":"wanas-eng","projectNumber":"79838150940","displayName":"omar ahmed resume","name":"projects/wanas-eng","resources":{"hostingSite":"wanas-eng","realtimeDatabaseInstance":"wanas-eng-default-rtdb"},"state":"ACTIVE","etag":"1_058c4e37-e152-4fc4-92c1-d4e7ae190906"}
+[debug] [2025-09-13T10:00:15.709Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:15.710Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:15.711Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites pageToken=&pageSize=10
+[debug] [2025-09-13T10:00:16.689Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 200
+[debug] [2025-09-13T10:00:16.689Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites {"sites":[{"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-09-13T10:00:16.690Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:16.690Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:16.690Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 
+[debug] [2025-09-13T10:00:16.965Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites 200
+[debug] [2025-09-13T10:00:16.965Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites {"sites":[{"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-09-13T10:00:16.965Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:16.965Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:16.966Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config [none]
+[debug] [2025-09-13T10:00:17.567Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config 200
+[debug] [2025-09-13T10:00:17.568Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wanas-eng/webApps/-/config {"projectId":"wanas-eng","appId":"1:79838150940:web:67b052518ae396fefd3ad9","databaseURL":"https://wanas-eng-default-rtdb.firebaseio.com","storageBucket":"wanas-eng.firebasestorage.app","apiKey":"AIzaSyDl_jv9I3MUhIfo2CCVE6kzjswTK_twyYg","authDomain":"wanas-eng.firebaseapp.com","messagingSenderId":"79838150940","measurementId":"G-4M22JEX9YG"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+   The integration is known to work with Next.js version 12 - 15.0. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[debug] [2025-09-13T10:00:19.892Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:19.892Z] Checked if tokens are valid: true, expires at: 1757760538939
+[debug] [2025-09-13T10:00:19.893Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng [none]
+[debug] [2025-09-13T10:00:20.132Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng 200
+[debug] [2025-09-13T10:00:20.132Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/wanas-eng/sites/wanas-eng {"name":"projects/wanas-eng/sites/wanas-eng","defaultUrl":"https://wanas-eng.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.5.3
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully in 1148ms
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+Failed to compile.
+
+./app/page.tsx
+346:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+346:100  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+356:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+356:84  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+366:17  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+366:82  Error: `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`.  react/no-unescaped-entities
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+
+[debug] [2025-09-13T10:00:29.199Z] Error: ENOENT: no such file or directory, open '/Users/amrshams/dev-projects/omar_resume/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
