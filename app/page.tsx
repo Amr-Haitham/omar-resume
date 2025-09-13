@@ -173,7 +173,14 @@ export default function Home() {
                 <div className="bg-gray-100 p-4 rounded-lg">
                   <div className="text-center text-gray-500">
                     <div className="text-3xl mb-2">📄</div>
-                    <p className="text-sm">سيرة ذاتية غير منظمة</p>
+                    <p className="text-sm mb-4">سيرة ذاتية غير منظمة</p>
+                    <a
+                      href="/before.pdf"
+                      download="before-resume.pdf"
+                      className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg hover:shadow-red-600/25 transition-all duration-300 transform hover:scale-105"
+                    >
+                      تحميل PDF
+                    </a>
                   </div>
                 </div>
               </div>
@@ -187,7 +194,14 @@ export default function Home() {
                 <div className="bg-green-50 p-4 rounded-lg border-2 border-green-200">
                   <div className="text-center text-gray-700">
                     <div className="text-3xl mb-2">✨</div>
-                    <p className="text-sm font-medium">سيرة ذاتية احترافية ومنظمة</p>
+                    <p className="text-sm font-medium mb-4">سيرة ذاتية احترافية ومنظمة</p>
+                    <a
+                      href="/after.pdf"
+                      download="after-resume.pdf"
+                      className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg hover:shadow-green-600/25 transition-all duration-300 transform hover:scale-105"
+                    >
+                      تحميل PDF
+                    </a>
                   </div>
                 </div>
               </div>
@@ -219,7 +233,8 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Service 1: Deep Review + Personalized Video */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">1 — مراجعة عميقة + فيديو شخصي</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">1 — مراجعة عميقة + فيديو Recorded</h3>
+              <div className="text-3xl font-bold text-blue-600 mb-4">300 جنية</div>
               <p className="text-gray-600 mb-6">مثالي إذا كنت تريد نقداً مدروساً ومخصصاً دون جدولة مكالمة.</p>
               
               <div className="mb-6">
@@ -250,6 +265,7 @@ export default function Home() {
             {/* Service 2: 45-minute 1:1 Resume Deep-Dive */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">2 — جلسة مباشرة 45 دقيقة</h3>
+              <div className="text-3xl font-bold text-blue-600 mb-4">500 جنية</div>
               <p className="text-gray-600 mb-6">الأفضل للأشخاص الذين يريدون تحسينات تفاعلية عالية التأثير وتعديلات مباشرة.</p>
               
               <div className="mb-6">
@@ -259,7 +275,7 @@ export default function Home() {
                   <li>• أسأل أسئلة مستهدفة لفهم دورك وتأثيرك وأهدافك</li>
                   <li>• تعديلات مباشرة وإعادة صياغة أثناء المكالمة</li>
                   <li>• ملخص ما بعد المكالمة مع أهم الإجراءات و3–5 أمثلة إعادة كتابة</li>
-                </ul>
+              </ul>
               </div>
               
               <div className="mb-6">
@@ -275,6 +291,7 @@ export default function Home() {
             {/* Service 3: 30-minute Mentorship / Career Q&A */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">3 — جلسة إرشاد 30 دقيقة</h3>
+              <div className="text-3xl font-bold text-blue-600 mb-4">400 جنية</div>
               <p className="text-gray-600 mb-6">للإرشاد المهني الأوسع، تحضير المقابلات، والإرشاد.</p>
               
               <div className="mb-6">
@@ -285,7 +302,7 @@ export default function Home() {
                   <li>• استراتيجيات التواصل، نصائح التدريب/عرض العودة</li>
                   <li>• نصائح عملية قائمة على الخبرة وخطوات واقعية</li>
                   <li>• ملاحظة متابعة قصيرة تلخص التوصيات الرئيسية</li>
-                </ul>
+              </ul>
               </div>
               
               <div className="mb-6">
@@ -372,10 +389,10 @@ export default function Home() {
               <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Instapay</h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                  <span className="font-semibold text-gray-700">رقم المستلم:</span>
+                  <span className="font-semibold text-gray-700">اسم المستخدم:</span>
                   <div className="flex items-center gap-2">
-                    <span className="text-blue-600 font-bold">+201234567890</span>
-                    <CopyButton text="+201234567890" title="نسخ الرقم" />
+                    <span className="text-blue-600 font-bold">omarahmed7723</span>
+                    <CopyButton text="omarahmed7723" title="نسخ اسم المستخدم" />
                   </div>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
