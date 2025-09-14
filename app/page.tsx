@@ -26,16 +26,16 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center min-h-[600px]">
             <div className="text-center lg:text-right order-2 lg:order-1 flex flex-col justify-center">
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                عمر أحمد
+              أنا عمر أحمد
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-600 mt-2">
-                  احصل على سيرة ذاتية مميزة
+                هساعدك انك تعمل resume ممتازة
+
                 </span>
               </h1>
               <p className="text-xl text-gray-600 mb-6 font-medium">
-                تمت مراجعتها من قبل متدرب في Google
+                هقدملك مراجعة مخصوص ليك و الresume بتاعتك هتحسن شكلها جدا و ان شاء الله تساعدك توصل لinterviews اكتر
               </p>
               <p className="text-lg text-gray-700 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                احصل على المزيد من المقابلات مع تعليقات خبيرة على سيرتك الذاتية وتحسينات حقيقية تجعلك ملاحظاً من قبل أفضل الموظفين.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="#services" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl text-lg shadow-xl hover:shadow-blue-600/25 transition-all duration-300 transform hover:scale-105 text-center">
@@ -74,14 +74,17 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              من أنا ولماذا يجب أن تثق بنصائحي
+              انا مين و ايه يأهلني اني ادي نصايح
             </h2>
             <div className="max-w-4xl mx-auto text-right">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                مرحباً — أنا عمر. أكملت تدريبين في هندسة البرمجيات في Google (حصلت على الأول بدون توصيات)، وحصلت على عرض عودة لصيف 2025. وصلت إلى هنا من خلال الكثير من التجربة والخطأ، والممارسة المتعمدة على مواد التقديم، و— توفيق من ربنا. كما استضفت ورش عمل متعددة حول السيرة الذاتية (واحدة منها على YouTube مع أكثر من 1.5k مشاهدة وتقييمات إيجابية باستمرار) وقمت بالعديد من مراجعات السيرة الذاتية الفردية — المشاركون يبلغون عن تحسينات واضحة وقابلة للقياس بعد العمل معي.
+                اهلا، انا عمر احمد طالب في جامعة عين شمس في اخر سنة و الحمدلله اخدت two software engineering internships at Google في صيف ٢٤ و ٢٥
+قعدت اقدم كتير في google و اترفضت كتير و الحمدلله في الاخر اتقبلت و كل ده من غير اي referral
+
+و عملت كذا resume session منها اللي كان offline و منها online و الحمدلله جابت اكتر من ١٥٠٠ مشاهدة و عملت كذا 1:1 session مع ناس كتير بديهم نصايح مخصصة ليهم و للresume بتاعتهم و الحمدلله الناس ديه شافت فرق كبير في الresume بتاعهم
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                ملاحظة سريعة: كل ما أنصح به يأتي من تجربتي الشخصية والبحث، وليس من العمل كموظف توظيف أو متخصص في الموارد البشرية. أهدف إلى تقديم نصائح عملية وصديقة للموظفين وقابلة للتنفيذ بناءً على ما ساعدني فعلاً والأشخاص الذين دربتهم.
+                ملاحظة سريعة: أي نصيحة هديهالك فهي من واقع تجربتي و خبرتي في التقديم و البحث. أنا مش موظف HR او اشتغلت recruiter قبل كده. هدفي اني اقدم نصايع عملية اللي جمعتها علي مدار السنين و كتير من التجارب
               </p>
             </div>
           </div>
@@ -250,28 +253,22 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Service 1: Deep Review + Personalized Video */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">1 — مراجعة عميقة + فيديو Recorded</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">١- مراجعة عميقة + فيديو مسجل</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">300 جنية</div>
-              <p className="text-gray-600 mb-6">مثالي إذا كنت تريد نقداً مدروساً ومخصصاً دون جدولة مكالمة.</p>
+              <p className="text-gray-600 mb-6">مناسب ليك لو عايز مراجعة مخصصة للresume بتاعك و عايز تشوف ايه اللي تقدر تحسنه</p>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <h4 className="font-bold text-gray-900 mb-3">هيوصلك ايه</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li>• ترفع سيرتك الذاتية؛ أقضي بضع ساعات في مراجعتها بالتفصيل</li>
-                  <li>• فيديو مسجل مخصص بالكامل (≈15–30 دقيقة) يمر على سيرتك الذاتية سطراً بسطر</li>
-                  <li>• اقتراحات إعادة كتابة ملموسة وأمثلة سأستخدمها بدلاً من النصائح الغامضة</li>
-                  <li>• خطوات واضحة لتحسين اهتمام المقابلات وقراءة ATS</li>
+                  <li>• هترفع الresume بتاعتك بعد كده هقضي كام ساعة بكتب كل ما يحتاج تعديله و تحسينه فيها</li>
+                  <li>• بعد كده بجمع كل النقط ديه في فيديو مركز بشرحلك فيها كل النقط</li>
+                  <li>• بقولك اقتراحات لكل جزء مع امثلة تقدر تعمل زيها</li>
                 </ul>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-2">مدة التسليم</h4>
-                <p className="text-sm text-gray-700">يتم التسليم خلال 3–4 أيام عمل من الرفع</p>
-              </div>
-              
-              <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
-                <p className="text-sm text-gray-700">الأشخاص المشغولين الذين يريدون مراجعة عميقة ومخصصة مع أمثلة يمكنهم تنفيذها في وقتهم الخاص</p>
+                <h4 className="font-bold text-gray-900 mb-2">مناسب ل</h4>
+                <p className="text-sm text-gray-700">الاشخاص المشغولين اللي عايزين مراجعة للresume تبقي مخصصة ليهم</p>
               </div>
               
               <a href="#payment" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300 text-center block">
@@ -281,23 +278,23 @@ export default function Home() {
             
             {/* Service 2: 45-minute 1:1 Resume Deep-Dive */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">2 — جلسة مباشرة 45 دقيقة</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">٢- جلسة مباشرة ٤٥ دقيقة</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">500 جنية</div>
-              <p className="text-gray-600 mb-6">الأفضل للأشخاص الذين يريدون تحسينات تفاعلية عالية التأثير وتعديلات مباشرة.</p>
+              <p className="text-gray-600 mb-6">ديه أفضل خدمة عندنا لأني ببقي قاعد معاك في meeting و بمشي معاك واحدة واحدة في كل مقطة تعدلها و ده يساعدني اكتر اني اساعدك تحسن في وصف المشاريع في الresume عشان هبقي بسمه منك انت شرحها و بقولك ازاي تحسنها</p>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <h4 className="font-bold text-gray-900 mb-3">هيوصلك ايه</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li>• مكالمة فيديو 45 دقيقة (مشاركة الشاشة) نمر على سيرتك الذاتية معاً</li>
-                  <li>• أسأل أسئلة مستهدفة لفهم دورك وتأثيرك وأهدافك</li>
-                  <li>• تعديلات مباشرة وإعادة صياغة أثناء المكالمة</li>
-                  <li>• ملخص ما بعد المكالمة مع أهم الإجراءات و3–5 أمثلة إعادة كتابة</li>
+                  <li>• هيتبعتلك link لcalendly تختار الميعاد اللي يناسبك</li>
+                  <li>• هقعد معاك ٤٥ دقيقة تركيزي الكامل كله ليك</li>
+                  <li>• هقدر من كلامي معاك اساعدك ازاي تكتب وصف احسن لخبراتك اللي مكتوبة في الresume</li>
+                  <li>• شيل موضوع الملخص ده</li>
               </ul>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
-                <p className="text-sm text-gray-700">الأشخاص الذين يريدون نتائج أسرع وأعلى جودة ويفضلون التوجيه التفاعلي على التعليقات غير المتزامنة</p>
+                <h4 className="font-bold text-gray-900 mb-2">مناسب ل</h4>
+                <p className="text-sm text-gray-700">شخص عايز تفصيل دقيق لكل نقطة في الresume و عايز جودة احسن في الreview</p>
               </div>
               
               <a href="#payment" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300 text-center block">
@@ -307,24 +304,23 @@ export default function Home() {
             
             {/* Service 3: 30-minute Mentorship / Career Q&A */}
             <div className="bg-white rounded-2xl shadow-xl border-2 border-gray-200 p-8 hover:shadow-2xl transition-all duration-300">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">3 — جلسة إرشاد 30 دقيقة</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">٣- جلسة إرشاد</h3>
               <div className="text-3xl font-bold text-blue-600 mb-4">400 جنية</div>
-              <p className="text-gray-600 mb-6">للإرشاد المهني الأوسع، تحضير المقابلات، والإرشاد.</p>
+              <p className="text-gray-600 mb-6">لو حد محتاج نصائح سواء مِهَنية او تعليمية او عايز يسأل ازاي يحضر لinterview</p>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-3">ما ستحصل عليه</h4>
+                <h4 className="font-bold text-gray-900 mb-3">هيوصلك ايه</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
-                  <li>• مكالمة مركزة 30 دقيقة يمكنك فيها سؤال أي شيء</li>
-                  <li>• خيارات المسار المهني، كيفية التحضير للمقابلات</li>
-                  <li>• استراتيجيات التواصل، نصائح التدريب/عرض العودة</li>
-                  <li>• نصائح عملية قائمة على الخبرة وخطوات واقعية</li>
-                  <li>• ملاحظة متابعة قصيرة تلخص التوصيات الرئيسية</li>
+                  <li>• هيتبعتلك link لcalendly تختار الميعاد اللي يناسبك</li>
+                  <li>• مكالمة تقدر فيها تسألني اي سؤال انت عايزه سواء عن الشغل او الدراسة</li>
+                  <li>• نصايح احسن طريقة ازاي تبقي جاهز لو عندك interview</li>
+                  <li>• نصايح عملية مبنية علي كذا سنة من التقديم في التدريبات و الكورسات و مساعدة الناس انهم يقدمو عليها</li>
               </ul>
               </div>
               
               <div className="mb-6">
-                <h4 className="font-bold text-gray-900 mb-2">مثالي لـ</h4>
-                <p className="text-sm text-gray-700">الطلاب والمهندسين في بداية حياتهم المهنية الذين يريدون إرشاداً، استراتيجية مقابلات، أو مساعدة في اتخاذ الخطوات التالية</p>
+                <h4 className="font-bold text-gray-900 mb-2">مناسب ل</h4>
+                <p className="text-sm text-gray-700">لو حد عنده اسئلة كتير او حاسس انه تايه او مش عارف يبدأ منين في اي مرحلة او لسه داخل جامعة جديد او بيدور علي تدريبات في الصيف او مش عارف يتخصص في مجال ايه</p>
               </div>
               
               <a href="#payment" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-lg shadow-lg hover:shadow-blue-600/25 transition-all duration-300 text-center block">
@@ -357,16 +353,16 @@ export default function Home() {
               <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-white text-xl font-bold">2</span>
               </div>
-              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الدفع والسيرة الذاتية</h3>
-              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay أو المحفظة الإلكترونية + أرسل الresume إذا كانت خدمة مراجعة</p>
+              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الدفع</h3>
+              <p className="text-gray-600 text-sm">ارسل المبلغ عبر Instapay أو المحفظة الإلكترونية</p>
             </div>
             
             <div className="text-center">
               <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-white text-xl font-bold">3</span>
               </div>
-              <h3 className="font-bold text-base mb-2 text-gray-900">تأكيد الدفع</h3>
-              <p className="text-gray-600 text-sm">أرسل إيصال الدفع</p>
+              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الresume</h3>
+              <p className="text-gray-600 text-sm">أرسل الresume إذا كانت خدمة مراجعة</p>
             </div>
             
             <div className="text-center">
