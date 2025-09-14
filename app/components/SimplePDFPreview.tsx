@@ -11,18 +11,16 @@ interface SimplePDFPreviewProps {
 export default function SimplePDFPreview({ pdfUrl, title, className = '' }: SimplePDFPreviewProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [showPreview, setShowPreview] = useState(false);
-
-  const handlePreviewClick = () => {
-    setShowPreview(true);
-    setIsLoading(false);
-  };
 
   // Reset states when pdfUrl changes
   useEffect(() => {
     setIsLoading(true);
     setError(null);
-    setShowPreview(false);
+    // Auto-show preview after a short delay
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+    return () => clearTimeout(timer);
   }, [pdfUrl]);
 
   return (
@@ -31,37 +29,23 @@ export default function SimplePDFPreview({ pdfUrl, title, className = '' }: Simp
         <h4 className="text-sm font-bold text-gray-700 mb-3 text-center">{title}</h4>
         
         <div className="relative bg-white rounded-lg shadow-sm border border-gray-300 overflow-hidden">
-          {!showPreview && (
+          {isLoading && (
             <div className="flex items-center justify-center h-72 text-gray-600">
               <div className="text-center">
-                <div className="text-6xl mb-4">📄</div>
-                <p className="text-lg font-semibold mb-2">{title}</p>
-                <p className="text-sm text-gray-500 mb-4">اضغط على "معاينة PDF" لرؤية الملف</p>
-                <button
-                  onClick={handlePreviewClick}
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg text-sm shadow-lg hover:shadow-blue-600/25 transition-all duration-300 transform hover:scale-105"
-                >
-                  معاينة PDF
-                </button>
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
+                <p className="text-sm text-gray-500">جاري تحميل المعاينة...</p>
               </div>
             </div>
           )}
 
-          {showPreview && (
+          {!isLoading && !error && (
             <div className="h-72 relative">
-              <button
-                onClick={() => setShowPreview(false)}
-                className="absolute top-2 right-2 z-10 bg-gray-800 hover:bg-gray-900 text-white text-xs px-2 py-1 rounded shadow-lg"
-              >
-                إخفاء المعاينة
-              </button>
               <iframe
                 src={`${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                 className="w-full h-full border-0"
                 title={`معاينة ${title}`}
                 onError={() => {
                   setError('فشل في تحميل معاينة PDF');
-                  setShowPreview(false);
                 }}
               />
             </div>
