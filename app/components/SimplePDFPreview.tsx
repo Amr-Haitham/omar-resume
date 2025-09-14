@@ -30,7 +30,7 @@ export default function SimplePDFPreview({ pdfUrl, title, className = '' }: Simp
         
         <div className="relative bg-white rounded-lg shadow-sm border border-gray-300 overflow-hidden">
           {isLoading && (
-            <div className="flex items-center justify-center h-72 text-gray-600">
+            <div className="flex items-center justify-center h-96 text-gray-600">
               <div className="text-center">
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto mb-4"></div>
                 <p className="text-sm text-gray-500">جاري تحميل المعاينة...</p>
@@ -39,7 +39,7 @@ export default function SimplePDFPreview({ pdfUrl, title, className = '' }: Simp
           )}
 
           {!isLoading && !error && (
-            <div className="h-72 relative">
+            <div className="h-96 relative">
               <iframe
                 src={`${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`}
                 className="w-full h-full border-0"
@@ -52,7 +52,7 @@ export default function SimplePDFPreview({ pdfUrl, title, className = '' }: Simp
           )}
 
           {error && (
-            <div className="flex items-center justify-center h-72 text-gray-600">
+            <div className="flex items-center justify-center h-96 text-gray-600">
               <div className="text-center">
                 <div className="text-4xl mb-3">❌</div>
                 <p className="text-sm mb-2">{error}</p>
