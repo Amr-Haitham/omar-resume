@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CopyButton from "./components/CopyButton";
 import SocialIcons from "./components/SocialIcons";
+import SimplePDFPreview from "./components/SimplePDFPreview";
 
 export default function Home() {
   return (
@@ -184,25 +185,17 @@ export default function Home() {
             </h2>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-8 items-center mb-8">
+          <div className="grid lg:grid-cols-2 gap-8 items-start mb-8">
             <div className="space-y-4">
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold w-fit mb-4">
                   قبل
                 </div>
-                <div className="bg-gray-100 p-4 rounded-lg">
-                  <div className="text-center text-gray-500">
-                    <div className="text-3xl mb-2">📄</div>
-                    <p className="text-sm mb-4">سيرة ذاتية غير منظمة</p>
-                    <a
-                      href="/before.pdf"
-                      download="before-resume.pdf"
-                      className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg hover:shadow-red-600/25 transition-all duration-300 transform hover:scale-105"
-                    >
-                      تحميل PDF
-                    </a>
-                  </div>
-                </div>
+                <SimplePDFPreview 
+                  pdfUrl="/before.pdf" 
+                  title="سيرة ذاتية غير منظمة"
+                  className="w-full"
+                />
               </div>
             </div>
             
@@ -211,19 +204,11 @@ export default function Home() {
                 <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold w-fit mb-4">
                   بعد
                 </div>
-                <div className="bg-green-50 p-4 rounded-lg border-2 border-green-200">
-                  <div className="text-center text-gray-700">
-                    <div className="text-3xl mb-2">✨</div>
-                    <p className="text-sm font-medium mb-4">سيرة ذاتية احترافية ومنظمة</p>
-                    <a
-                      href="/after.pdf"
-                      download="after-resume.pdf"
-                      className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg text-sm shadow-lg hover:shadow-green-600/25 transition-all duration-300 transform hover:scale-105"
-                    >
-                      تحميل PDF
-                    </a>
-                  </div>
-                </div>
+                <SimplePDFPreview 
+                  pdfUrl="/after.pdf" 
+                  title="سيرة ذاتية احترافية ومنظمة"
+                  className="w-full"
+                />
               </div>
             </div>
           </div>
