@@ -96,7 +96,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              ماذا يقول عملائي
+              رأي عملائي
             </h2>
           </div>
           
@@ -147,8 +147,8 @@ export default function Home() {
           {/* Video Preview Section */}
           <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-6 shadow-lg">
             <div className="text-center mb-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-2">شاهد جلسة مراجعة مباشرة</h3>
-              <p className="text-gray-600">تعلم كيف نحسن سيرتك الذاتية خطوة بخطوة</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">شوف جلسة مراجعة مباشرة</h3>
+              <p className="text-gray-600">تعلم ازاي نحسن الresume بتاعك خطوة بخطوة</p>
             </div>
             
             <div className="relative bg-gray-900 rounded-xl overflow-hidden shadow-xl max-w-3xl mx-auto">
@@ -426,14 +426,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">خدمات مراجعة السيرة الذاتية</h3>
+              <h3 className="text-xl font-bold mb-4">خدمات مراجعة الresume</h3>
               <p className="text-gray-300 text-base mb-4 leading-relaxed">
-                خدمات مراجعة السيرة الذاتية الاحترافية من متدرب في جوجل، نساعد المرشحين في الحصول على وظائف تقنية رائدة.
+                خدمات مراجعة الresume الاحترافية من متدرب في جوجل، بنساعد الناس في الحصول على شغل تقني ممتاز.
               </p>
             </div>
             
             <div>
-              <h3 className="text-xl font-bold mb-4">تواصل معنا</h3>
+              <h3 className="text-xl font-bold mb-4">كلمنا</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
                   <span className="text-lg">📧</span>
