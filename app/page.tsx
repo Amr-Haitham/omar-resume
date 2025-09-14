@@ -361,8 +361,8 @@ export default function Home() {
               <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
                 <span className="text-white text-xl font-bold">3</span>
               </div>
-              <h3 className="font-bold text-base mb-2 text-gray-900">أرسل الresume</h3>
-              <p className="text-gray-600 text-sm">أرسل الresume إذا كانت خدمة مراجعة</p>
+              <h3 className="font-bold text-base mb-2 text-gray-900">تأكيد الدفع + أرسل الresume</h3>
+              <p className="text-gray-600 text-sm">أرسل إيصال الدفع + أرسل الresume إذا كانت خدمة مراجعة</p>
             </div>
             
             <div className="text-center">
