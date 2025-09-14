@@ -101,7 +101,7 @@ export default function Home() {
             </h2>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 mb-10 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10 max-w-6xl mx-auto">
             <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
               <div className="flex items-center gap-1 mb-3">
                 <span className="text-yellow-400 text-lg">★★★★★</span>
@@ -122,15 +122,15 @@ export default function Home() {
               <div className="font-bold text-lg text-gray-900">عمرو هيثم</div>
             </div>
             
-            {/* <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+            <div className="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
               <div className="flex items-center gap-1 mb-3">
                 <span className="text-yellow-400 text-lg">★★★★★</span>
               </div>
               <p className="text-gray-700 mb-4 text-base leading-relaxed">
-                &ldquo;ساعدتني في الحصول على مقابلات أكثر من أي وقت مضى. أنصح بها بشدة!&rdquo;
+                &ldquo;حابب أوجّه شكر كبير لعُمر، بجد إنسان محترم جدًا. استفدت منه كتير في إزاي أظبط الـ CV بتاعي بالطريقة الصح وأستخدم الـ tools المناسبة، وده ساعدني إن الـ CV يعدّي مرحلة الـ screening أكتر من مرة، وقدرت أحصل على كذا offer كـ intern، ودلوقتي بعمل internship في واحدة منهم. شركات زي Microsoft و Google وغيرهم… كمان عمر حريص جدًا على أدق التفاصيل، ومابيهداش غير لما يضمن إن كل حاجة اتعملت بالشكل المطلوب. فبجد متشكر جدًا على مجهودك يا عمر.&rdquo;
               </p>
-              <div className="font-bold text-lg text-gray-900">فاطمة علي</div>
-            </div> */}
+              <div className="font-bold text-lg text-gray-900">محمد أحمد عصمت</div>
+            </div>
           </div>
 
            <div className="text-center">
