@@ -420,6 +420,85 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* FAQs Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              الأسئلة الشائعة
+            </h2>
+            <p className="text-lg text-gray-600">
+              إجابات على أكثر الأسئلة شيوعاً حول خدماتنا
+            </p>
+          </div>
+          
+          <div className="space-y-6">
+            {/* FAQ 1 */}
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                 لو الresume بتاعي كويس أصلاً ومش محتاج تحسينات كتير؟
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                في الحالة دي هنرجعلك الفلوس كلها. احنا هدفنا إننا نقدم قيمة حقيقية، ولو مكناش قادرين نحسن الresume بتاعك بشكل واضح، فاحنا مش مستحقين أجر على كده.
+              </p>
+            </div>
+
+            {/* FAQ 2 */}
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                المراجعة بتاخد كام يوم عشان تخلص؟
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                للمراجعة العميقة مع الفيديو المسجل: 2-3 أيام شغل. للجلسة المباشرة: تقدر تحجز موعد خلال 24-48 ساعة من الدفع. لجلسة الإرشاد: متاحة خلال 24 ساعة من الدفع.
+              </p>
+            </div>
+
+            {/* FAQ 3 */}
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                إيه أنواع الresumes اللي بتتعاملوا معاها؟
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                بنتعامل مع كل أنواع الresumes التقنية: مطورين، مهندسي برمجيات، مطورين ويب، مطورين تطبيقات، محللي بيانات، وكل مجالات التكنولوجيا التانية.
+              </p>
+            </div>
+
+            {/* FAQ 4 */}
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                بتقدموا خدمات للمبتدئين ولا للمتقدمين بس؟
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                بنقدم خدمات لكل المستويات. سواء كنت مبتدئ في المجال التقني أو عندك خبرة سنين، هنقدر نساعدك تحسن الresume بتاعك بما يناسب مستواك وخبرتك. احنا متخصصين أكتر في المناصب الهندسية والبرمجية.
+              </p>
+            </div>
+
+            {/* FAQ 5 */}
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm">
+              <h3 className="text-lg font-bold text-gray-900 mb-3">
+                أقدر ألغي الخدمة بعد ما أدفع؟
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                تقدر تلغي الخدمة خلال 24 ساعة من الدفع لو مبدأتش العملية لسه. بعد ما تبدأ المراجعة، تقدر تلغي الخدمة بس هيتخصم منك تكلفة الشغل اللي اتعمل.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center mt-10">
+            <p className="text-gray-600 mb-4">مش لاقي إجابة لسؤالك؟</p>
+            <a 
+              href="https://wa.me/201013455957" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-xl text-lg shadow-lg hover:shadow-green-600/25 transition-all duration-300 inline-block"
+            >
+              كلمنا على الواتساب
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
 
       <footer className="bg-gray-900 text-white py-12 px-4">
