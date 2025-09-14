@@ -56,7 +56,7 @@ export default function SimplePDFPreview({ pdfUrl, title, className = '' }: Simp
               <div className="text-center">
                 <div className="text-4xl mb-3">❌</div>
                 <p className="text-sm mb-2">{error}</p>
-                <p className="text-xs text-gray-500">اضغط على "تحميل PDF" لرؤية الملف</p>
+                <p className="text-xs text-gray-500">اضغط على &quot;تحميل PDF&quot; لرؤية الملف</p>
               </div>
             </div>
           )}
