@@ -54,7 +54,7 @@ export const content = {
       features: [
         "أقسام واضحة ومنظمة",
         "تصميم احترافي وجذاب",
-        "محتوى قوي ومؤثر"
+        "محتوى مناسب للposition المطلوب"
       ]
     },
 
@@ -224,7 +224,7 @@ export const content = {
       features: [
         "Clear and organized sections",
         "Professional and attractive design",
-        "Strong and impactful content"
+        "Content tailored to your target position"
       ]
     },
 

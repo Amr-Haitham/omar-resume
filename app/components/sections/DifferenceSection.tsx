@@ -44,18 +44,24 @@ export default function DifferenceSection() {
         </div>
         
         <div className="text-center">
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-xl text-gray-800 mb-8 font-medium leading-relaxed">
             {t.description}
           </p>
-          <div className="max-w-2xl mx-auto">
-            <ul className={`text-base text-gray-600 space-y-3 ${isRTL ? 'text-right' : 'text-left'}`}>
+          <div className="max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-6">
               {t.features.map((feature, index) => (
-                <li key={index} className="flex items-center justify-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 flex-shrink-0"></span>
-                  <span className="text-center">{feature}</span>
-                </li>
+                <div key={index} className="bg-white rounded-xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                      <span className="text-white font-bold text-lg">{index + 1}</span>
+                    </div>
+                    <p className="text-gray-700 font-medium text-base leading-relaxed">
+                      {feature}
+                    </p>
+                  </div>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       </div>
