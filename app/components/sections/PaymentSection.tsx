@@ -27,54 +27,35 @@ export default function PaymentSection() {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          {/* Vodafone Cash */}
+        <div className="max-w-lg mx-auto">
+          {/* Single Payment Method */}
           <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t.vodafone.title}</h3>
-            <div className="space-y-3">
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
+            <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t.combined.title}</h3>
+            <div className="text-center mb-6">
+              <p className="text-gray-600 mb-4">
+                {language === 'ar' 
+                  ? 'يمكنك الدفع عبر Vodafone Cash أو Instapay على نفس الرقم' 
+                  : 'You can pay via Vodafone Cash or Instapay using the same number'
+                }
+              </p>
+              <div className="flex justify-center items-center gap-2 p-4 bg-gray-50 rounded-lg mb-3">
                 <span className="font-semibold text-gray-700">
                   {language === 'ar' ? 'رقم المحفظة:' : 'Wallet Number:'}
                 </span>
-                <div className="flex items-center gap-2">
-                  <span className="text-blue-600 font-bold">{t.vodafone.number}</span>
-                  <CopyButton text={t.vodafone.number} title={language === 'ar' ? 'نسخ الرقم' : 'Copy Number'} />
-                </div>
+                <span className="text-blue-600 font-bold text-lg">{t.vodafone.number}</span>
+                <CopyButton text={t.vodafone.number} title={language === 'ar' ? 'نسخ الرقم' : 'Copy Number'} />
               </div>
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-semibold text-gray-700">
-                  {language === 'ar' ? 'اسم المستلم:' : 'Recipient Name:'}
-                </span>
-                <span className="text-blue-600 font-bold">{t.vodafone.name}</span>
-              </div>
-            </div>
-            <a href="https://wa.me/201064542684" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-xl text-base shadow-lg hover:shadow-green-600/25 transition-all duration-300 mt-4 text-center block">
-              {t.vodafone.cta}
-            </a>
-          </div>
-
-          {/* Instapay */}
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{t.instapay.title}</h3>
-            <div className="space-y-3">
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-semibold text-gray-700">
-                  {language === 'ar' ? 'اسم المستخدم:' : 'Username:'}
-                </span>
-                <div className="flex items-center gap-2">
-                  <span className="text-blue-600 font-bold">{t.instapay.username}</span>
-                  <CopyButton text={t.instapay.username} title={language === 'ar' ? 'نسخ اسم المستخدم' : 'Copy Username'} />
-                </div>
-              </div>
-              <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                <span className="font-semibold text-gray-700">
-                  {language === 'ar' ? 'اسم المستلم:' : 'Recipient Name:'}
-                </span>
-                <span className="text-blue-600 font-bold">{t.instapay.name}</span>
+              <div className="p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                <p className="text-sm text-yellow-800 font-medium">
+                  {language === 'ar' 
+                    ? 'ملاحظة: اسم المستلم في Vodafone Cash و Instapay هو "عمرو هيثم"' 
+                    : 'Note: Make sure the recipient name in Vodafone Cash and Instapay is "Amr Haitham"'
+                  }
+                </p>
               </div>
             </div>
-            <a href="https://wa.me/201064542684" target="_blank" rel="noopener noreferrer" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl text-base shadow-lg hover:shadow-blue-600/25 transition-all duration-300 mt-4 text-center block">
-              {t.instapay.cta}
+            <a href="https://wa.me/201013455957" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-xl text-base shadow-lg hover:shadow-green-600/25 transition-all duration-300 text-center block">
+              {t.combined.cta}
             </a>
           </div>
         </div>

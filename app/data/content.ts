@@ -112,17 +112,17 @@ export const content = {
         { number: "3", title: "تأكيد الدفع + أرسل الresume", description: "أرسل إيصال الدفع + أرسل الresume إذا كانت خدمة مراجعة" },
         { number: "4", title: "احصل على الخدمة", description: "ابدأ جلسة المراجعة أو انتظر الفيديو المسجل" }
       ],
+      combined: {
+        title: "طرق الدفع",
+        cta: "تأكيد الدفع"
+      },
       vodafone: {
         title: "Vodafone Cash",
-        number: "01064542684",
-        name: "عمر أحمد",
-        cta: "تأكيد الدفع"
+        number: "01013455957"
       },
       instapay: {
         title: "Instapay",
-        username: "omarahmed7723",
-        name: "عمر أحمد",
-        cta: "تأكيد الدفع"
+        number: "01013455957"
       }
     },
 
@@ -282,17 +282,17 @@ export const content = {
         { number: "3", title: "Confirm Payment + Send Resume", description: "Send payment receipt + send resume if it's a review service" },
         { number: "4", title: "Get Service", description: "Start the review session or wait for the recorded video" }
       ],
+      combined: {
+        title: "Payment Methods",
+        cta: "Confirm Payment"
+      },
       vodafone: {
         title: "Vodafone Cash",
-        number: "01064542684",
-        name: "Omar Ahmed",
-        cta: "Confirm Payment"
+        number: "01013455957"
       },
       instapay: {
         title: "Instapay",
-        username: "omarahmed7723",
-        name: "Omar Ahmed",
-        cta: "Confirm Payment"
+        number: "01013455957"
       }
     },
 
