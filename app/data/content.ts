@@ -26,8 +26,8 @@ export const content = {
           author: "محمد رسلان"
         },
         {
-          text: "بفضل الله ثم بمساعدة عمر رتبنا ال resume بشكل لائق وخلي المحتوى directed اكتر علي الposition اللي انا عاوزه و اضفنا محتوي مكنتش متوقع انه هيفرق و شيلنا محتوى كنت اظنه مهم. الsession فرقت جدا معايا. حد محترم جدا ومتعاون ربنا يجازيك خير و يرزقك",
-          author: "عمرو هيثم"
+          text: "مراجعة الresume مع عمر كانت مفيدة جداً. ركز على كل التفاصيل، حتى التنسيق، وساعدني أحسن الresume بتاعي عشان يعدي من Google ATS. شرحلي كل تغيير واداني نصايح عملية للشغل. أنصح بيه جداً!",
+          author: "مهند ماضي"
         },
         {
           text: "حابب أوجّه شكر كبير لعُمر، بجد إنسان محترم جدًا. استفدت منه كتير في إزاي أظبط الـ CV بتاعي بالطريقة الصح وأستخدم الـ tools المناسبة، وده ساعدني إن الـ CV يعدّي مرحلة الـ screening أكتر من مرة، وقدرت أحصل على كذا offer كـ intern، ودلوقتي بعمل internship في واحدة منهم. شركات زي Microsoft و Google وغيرهم… كمان عمر حريص جدًا على أدق التفاصيل، ومابيهداش غير لما يضمن إن كل حاجة اتعملت بالشكل المطلوب. فبجد متشكر جدًا على مجهودك يا عمر.",
@@ -196,8 +196,8 @@ export const content = {
           author: "Mohamed Raslan"
         },
         {
-          text: "Thanks to God and then with Omar's help, we organized the resume properly and made the content more directed towards the position I want. We added content I didn't expect would make a difference and removed content I thought was important. The session made a huge difference for me. A very respectful and cooperative person, may God reward you with good and bless you.",
-          author: "Amr Heitham"
+          text: "The resume review with Omar was super helpful. He focused on every detail, even formatting, and helped me polish my resume so it passed Google's ATS. He explained every change and gave practical career advice. Highly recommend!",
+          author: "Mohannad Madi"
         },
         {
           text: "I'd like to give a big thanks to Omar, he's a very respectful person. I benefited a lot from him on how to fix my CV the right way and use the appropriate tools, and this helped my CV pass the screening stage more than once, and I was able to get several intern offers, and now I'm doing an internship at one of them. Companies like Microsoft and Google and others... Also, Omar is very careful about the smallest details, and he doesn't give up until he ensures everything is done the right way. So really, thank you very much for your effort, Omar.",
