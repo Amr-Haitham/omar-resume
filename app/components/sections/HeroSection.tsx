@@ -31,7 +31,7 @@ export default function HeroSection() {
           </div>
           
           {/* Omar's Image */}
-          <div className={`flex justify-center ${isRTL ? 'lg:justify-end lg:-mr-8' : 'lg:justify-start lg:-ml-8'} order-1 lg:order-2`}>
+          <div className={`flex justify-center ${isRTL ? 'lg:justify-end lg:-mr-8' : 'lg:justify-center lg:ml-0'} order-1 lg:order-2`}>
             <div className="relative">
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-2xl border-4 sm:border-8 border-white">
                 <Image
