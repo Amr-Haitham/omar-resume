@@ -13,7 +13,7 @@ export default function LanguageToggle() {
     >
       <div className="flex items-center gap-2">
         <span className="text-lg">
-          {language === 'ar' ? '🇺🇸' : '🇪🇬'}
+          {language === 'ar' ? '🇬🇧' : '🇪🇬'}
         </span>
         <span className="text-sm font-medium">
           {language === 'ar' ? 'EN' : 'عربي'}
